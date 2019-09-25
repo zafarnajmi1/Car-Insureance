@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="JosefinSans-Light_1.ttf">
+            <string>JosefinSans-Light</string>
+        </array>
+        <array key="JosefinSans-Regular_0.ttf">
+            <string>JosefinSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ClaimDropwDownCell" rowHeight="91" id="KGk-i7-Jjw" customClass="ClaimDropwDownCell" customModule="CarInsurance" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="513" height="91"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="513" height="90.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aJU-FR-rVU">
+                        <rect key="frame" x="20" y="32" width="473" height="45"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DropDown-3" translatesAutoresizingMaskIntoConstraints="NO" id="MIu-zp-wiE">
+                                <rect key="frame" x="441" y="15" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="15" id="Ocg-aG-P4x"/>
+                                    <constraint firstAttribute="height" constant="15" id="Q7h-AO-GxL"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Car Make" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yon-cl-5jp">
+                                <rect key="frame" x="15" y="8" width="406" height="29"/>
+                                <color key="textColor" red="0.35294117650000001" green="0.35686274509999999" blue="0.36470588240000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="JosefinSans-Light" family="Josefin Sans" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eiq-Tp-fDd">
+                                <rect key="frame" x="0.0" y="0.0" width="473" height="45"/>
+                                <connections>
+                                    <action selector="selctionAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="jT5-bV-gKU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="eiq-Tp-fDd" secondAttribute="trailing" id="12U-J1-XJO"/>
+                            <constraint firstItem="yon-cl-5jp" firstAttribute="top" secondItem="aJU-FR-rVU" secondAttribute="top" constant="8" id="Gat-dH-oBp"/>
+                            <constraint firstItem="eiq-Tp-fDd" firstAttribute="top" secondItem="aJU-FR-rVU" secondAttribute="top" id="Hj4-8j-xED"/>
+                            <constraint firstItem="eiq-Tp-fDd" firstAttribute="leading" secondItem="aJU-FR-rVU" secondAttribute="leading" id="Kgh-ee-kfH"/>
+                            <constraint firstItem="MIu-zp-wiE" firstAttribute="leading" secondItem="yon-cl-5jp" secondAttribute="trailing" constant="20" id="SJK-Wh-pt3"/>
+                            <constraint firstAttribute="height" constant="45" id="X4S-u3-vEp"/>
+                            <constraint firstItem="yon-cl-5jp" firstAttribute="leading" secondItem="aJU-FR-rVU" secondAttribute="leading" constant="15" id="hup-PV-uGS"/>
+                            <constraint firstItem="MIu-zp-wiE" firstAttribute="top" secondItem="aJU-FR-rVU" secondAttribute="top" constant="15" id="m01-Zc-It7"/>
+                            <constraint firstAttribute="bottom" secondItem="yon-cl-5jp" secondAttribute="bottom" constant="8" id="mB7-LQ-t9z"/>
+                            <constraint firstAttribute="bottom" secondItem="eiq-Tp-fDd" secondAttribute="bottom" id="mqK-gn-rph"/>
+                            <constraint firstAttribute="trailing" secondItem="MIu-zp-wiE" secondAttribute="trailing" constant="17" id="w9f-8e-b3m"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Car Make" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RmH-VS-I3w">
+                        <rect key="frame" x="20" y="6" width="473" height="18"/>
+                        <fontDescription key="fontDescription" name="JosefinSans-Regular" family="Josefin Sans" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="aJU-FR-rVU" firstAttribute="top" secondItem="RmH-VS-I3w" secondAttribute="bottom" constant="8" id="8vn-VP-S4h"/>
+                    <constraint firstItem="aJU-FR-rVU" firstAttribute="trailing" secondItem="RmH-VS-I3w" secondAttribute="trailing" id="Ary-wh-bLL"/>
+                    <constraint firstAttribute="trailing" secondItem="RmH-VS-I3w" secondAttribute="trailing" constant="20" id="JQF-sz-I1k"/>
+                    <constraint firstAttribute="bottom" secondItem="aJU-FR-rVU" secondAttribute="bottom" constant="13.5" id="Mjp-yS-zFq"/>
+                    <constraint firstItem="aJU-FR-rVU" firstAttribute="leading" secondItem="RmH-VS-I3w" secondAttribute="leading" id="PTp-Z5-cu4"/>
+                    <constraint firstItem="RmH-VS-I3w" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Xun-7z-L8W"/>
+                    <constraint firstItem="RmH-VS-I3w" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="loc-O9-S5f"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btndropwdown" destination="eiq-Tp-fDd" id="01F-kH-BwK"/>
+                <outlet property="lblquestion" destination="RmH-VS-I3w" id="b5m-o4-M4g"/>
+                <outlet property="mainview" destination="aJU-FR-rVU" id="2He-Oo-uNV"/>
+                <outlet property="txtselcted" destination="yon-cl-5jp" id="2wJ-oM-OuW"/>
+            </connections>
+            <point key="canvasLocation" x="271.73913043478262" y="144.30803571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="DropDown-3" width="7.5" height="4.5"/>
+    </resources>
+</document>

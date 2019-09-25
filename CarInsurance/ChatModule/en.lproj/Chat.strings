@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "-----"; ObjectID = "BGk-ZI-5zx"; */
+"BGk-ZI-5zx.text" = "-----";
+
+/* Class = "UILabel"; text = "4 min ago"; ObjectID = "EFP-8p-0gH"; */
+"EFP-8p-0gH.text" = "4 min ago";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "IKn-Fv-xjZ"; */
+"IKn-Fv-xjZ.text" = "--";
+
+/* Class = "UITextField"; placeholder = "Write message..."; ObjectID = "QL1-jq-gy5"; */
+"QL1-jq-gy5.placeholder" = "Write message...";
+
+/* Class = "UILabel"; text = "4 min ago"; ObjectID = "Vxd-hz-wFb"; */
+"Vxd-hz-wFb.text" = "4 min ago";
+
+/* Class = "UILabel"; text = "4 min ago"; ObjectID = "Yjh-mk-Q9b"; */
+"Yjh-mk-Q9b.text" = "4 min ago";
+
+/* Class = "UILabel"; text = "4 min ago"; ObjectID = "btG-lS-1qv"; */
+"btG-lS-1qv.text" = "4 min ago";
+
+/* Class = "UILabel"; text = "-----"; ObjectID = "mdA-du-JTn"; */
+"mdA-du-JTn.text" = "-----";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "nOc-gI-J9N"; */
+"nOc-gI-J9N.text" = "--";
+
+/* Class = "UIButton"; normalTitle = "Send"; ObjectID = "rDr-4D-YMH"; */
+"rDr-4D-YMH.normalTitle" = "Send";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "uyf-Ch-NyJ"; */
+"uyf-Ch-NyJ.text" = "--";

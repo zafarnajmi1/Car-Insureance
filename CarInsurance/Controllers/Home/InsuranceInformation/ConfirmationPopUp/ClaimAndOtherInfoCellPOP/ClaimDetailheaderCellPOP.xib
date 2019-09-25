@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="JosefinSans-SemiBold_1.ttf">
+            <string>JosefinSans-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ClaimDetailheaderCellPOP" rowHeight="56" id="KGk-i7-Jjw" customClass="ClaimDetailheaderCellPOP" customModule="CarInsurance" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="445" height="56"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="445" height="55.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kFp-Uv-2jZ">
+                        <rect key="frame" x="20" y="6" width="405" height="43"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Claim Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qkb-ua-AR0">
+                                <rect key="frame" x="20" y="8" width="365" height="26"/>
+                                <fontDescription key="fontDescription" name="JosefinSans-SemiBold" family="Josefin Sans" pointSize="20"/>
+                                <color key="textColor" red="0.93333333330000001" green="0.73725490199999999" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="qkb-ua-AR0" secondAttribute="bottom" constant="9" id="2Ia-Xo-hua"/>
+                            <constraint firstItem="qkb-ua-AR0" firstAttribute="top" secondItem="kFp-Uv-2jZ" secondAttribute="top" constant="8" id="349-Bl-QZS"/>
+                            <constraint firstAttribute="trailing" secondItem="qkb-ua-AR0" secondAttribute="trailing" constant="20" id="L4l-nM-TTD"/>
+                            <constraint firstItem="qkb-ua-AR0" firstAttribute="leading" secondItem="kFp-Uv-2jZ" secondAttribute="leading" constant="20" id="Yrp-Id-lJO"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="kFp-Uv-2jZ" secondAttribute="bottom" constant="6.5" id="Hyd-kr-dHs"/>
+                    <constraint firstItem="kFp-Uv-2jZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="V0e-2O-ZVW"/>
+                    <constraint firstAttribute="trailing" secondItem="kFp-Uv-2jZ" secondAttribute="trailing" constant="20" id="cBJ-73-R1V"/>
+                    <constraint firstItem="kFp-Uv-2jZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="w5n-sg-ihN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblClaim" destination="qkb-ua-AR0" id="mut-NP-A2A"/>
+            </connections>
+            <point key="canvasLocation" x="222.46376811594206" y="129.91071428571428"/>
+        </tableViewCell>
+    </objects>
+</document>

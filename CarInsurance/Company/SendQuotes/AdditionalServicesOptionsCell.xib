@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="JosefinSans-Regular_0.ttf">
+            <string>JosefinSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AdditionalServicesOptionsCell" rowHeight="58" id="KGk-i7-Jjw" customClass="AdditionalServicesOptionsCell" customModule="CarInsurance" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="374" height="58"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="374" height="57.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1iP-bc-92V">
+                        <rect key="frame" x="20" y="3" width="334" height="50"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cfF-6O-snE">
+                                <rect key="frame" x="200" y="0.0" width="134" height="42"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Price" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oNn-ko-u9q">
+                                        <rect key="frame" x="18" y="4" width="99" height="36"/>
+                                        <color key="textColor" red="0.49002277851104736" green="0.49409246444702148" blue="0.49818295240402222" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="JosefinSans-Regular" family="Josefin Sans" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="Av6-bc-lbM"/>
+                                    <constraint firstAttribute="bottom" secondItem="oNn-ko-u9q" secondAttribute="bottom" constant="2" id="DT2-lu-4Sj"/>
+                                    <constraint firstItem="oNn-ko-u9q" firstAttribute="top" secondItem="cfF-6O-snE" secondAttribute="top" constant="4" id="Ixk-rJ-Mgg"/>
+                                    <constraint firstAttribute="width" constant="134" id="SQN-G1-PYR"/>
+                                    <constraint firstItem="oNn-ko-u9q" firstAttribute="leading" secondItem="cfF-6O-snE" secondAttribute="leading" constant="18" id="oGY-4g-45e"/>
+                                    <constraint firstAttribute="trailing" secondItem="oNn-ko-u9q" secondAttribute="trailing" constant="17" id="r5G-Op-0on"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AC Repair" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sSO-41-uR0">
+                                <rect key="frame" x="46" y="16" width="84" height="18"/>
+                                <fontDescription key="fontDescription" name="JosefinSans-Regular" family="Josefin Sans" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="UnCheckBox" translatesAutoresizingMaskIntoConstraints="NO" id="QAv-ug-urT">
+                                <rect key="frame" x="8" y="11.5" width="25" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="UKD-Wa-zZA"/>
+                                    <constraint firstAttribute="width" constant="25" id="gwu-Da-RTo"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAq-7m-dpG">
+                                <rect key="frame" x="8" y="13" width="25" height="24"/>
+                                <connections>
+                                    <action selector="checkBox:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="yqw-o0-v1A"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="QAv-ug-urT" firstAttribute="leading" secondItem="1iP-bc-92V" secondAttribute="leading" constant="8" id="3NH-Nk-BIc"/>
+                            <constraint firstAttribute="bottom" secondItem="cfF-6O-snE" secondAttribute="bottom" constant="8" id="5Yx-0B-oW1"/>
+                            <constraint firstItem="sSO-41-uR0" firstAttribute="centerY" secondItem="QAv-ug-urT" secondAttribute="centerY" id="7Tr-DN-Iub"/>
+                            <constraint firstItem="IAq-7m-dpG" firstAttribute="width" secondItem="QAv-ug-urT" secondAttribute="width" id="7e6-e1-8a6"/>
+                            <constraint firstItem="QAv-ug-urT" firstAttribute="centerY" secondItem="1iP-bc-92V" secondAttribute="centerY" id="7qZ-VI-7Ag"/>
+                            <constraint firstItem="sSO-41-uR0" firstAttribute="leading" secondItem="QAv-ug-urT" secondAttribute="trailing" constant="13" id="QIG-yd-omP"/>
+                            <constraint firstItem="IAq-7m-dpG" firstAttribute="height" secondItem="QAv-ug-urT" secondAttribute="height" constant="-3" id="UCo-Nk-s4V"/>
+                            <constraint firstAttribute="trailing" secondItem="cfF-6O-snE" secondAttribute="trailing" id="tU6-gz-Nm4"/>
+                            <constraint firstItem="IAq-7m-dpG" firstAttribute="centerY" secondItem="QAv-ug-urT" secondAttribute="centerY" id="vnV-KS-zaK"/>
+                            <constraint firstItem="IAq-7m-dpG" firstAttribute="centerX" secondItem="QAv-ug-urT" secondAttribute="centerX" id="wbO-Rj-3AD"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1iP-bc-92V" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="4ra-O3-wSn"/>
+                    <constraint firstItem="1iP-bc-92V" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="3" id="GJk-Ey-Pfp"/>
+                    <constraint firstAttribute="trailing" secondItem="1iP-bc-92V" secondAttribute="trailing" constant="20" id="XlM-ce-tXK"/>
+                    <constraint firstAttribute="bottom" secondItem="1iP-bc-92V" secondAttribute="bottom" constant="4.5" id="yt3-rz-X9v"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="TxtUiviewfield" destination="cfF-6O-snE" id="RIa-sS-6XQ"/>
+                <outlet property="boximg" destination="QAv-ug-urT" id="LuB-9I-2Xq"/>
+                <outlet property="btncheckBox" destination="IAq-7m-dpG" id="uau-Wb-ojL"/>
+                <outlet property="lblRepair" destination="sSO-41-uR0" id="1BQ-Cf-k5g"/>
+                <outlet property="txtPrice" destination="oNn-ko-u9q" id="2dF-U0-Sxu"/>
+            </connections>
+            <point key="canvasLocation" x="169.56521739130437" y="121.20535714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="UnCheckBox" width="11.5" height="11.5"/>
+    </resources>
+</document>

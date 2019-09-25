@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="JosefinSans-Light_1.ttf">
+            <string>JosefinSans-Light</string>
+        </array>
+        <array key="JosefinSans-Regular_0.ttf">
+            <string>JosefinSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DriverImageFileSectionCell" rowHeight="110" id="KGk-i7-Jjw" customClass="DriverImageFileSectionCell" customModule="CarInsurance" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="441" height="110"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="441" height="109.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J6Q-3x-QWa">
+                        <rect key="frame" x="15" y="15" width="411" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="KDf-NE-wP1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="JosefinSans-Regular" family="Josefin Sans" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="17S-Re-QjT">
+                        <rect key="frame" x="15" y="45" width="411" height="45"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YUK-DB-wVH">
+                                <rect key="frame" x="361" y="0.0" width="50" height="45"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Attachment" translatesAutoresizingMaskIntoConstraints="NO" id="pab-bQ-TQm">
+                                        <rect key="frame" x="4" y="4" width="42" height="37"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.93333333330000001" green="0.73725490199999999" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="5Mo-Ug-aPL"/>
+                                    <constraint firstItem="pab-bQ-TQm" firstAttribute="top" secondItem="YUK-DB-wVH" secondAttribute="top" constant="4" id="BEU-mK-8Z3"/>
+                                    <constraint firstAttribute="trailing" secondItem="pab-bQ-TQm" secondAttribute="trailing" constant="4" id="Dao-aP-5Kw"/>
+                                    <constraint firstItem="pab-bQ-TQm" firstAttribute="leading" secondItem="YUK-DB-wVH" secondAttribute="leading" constant="4" id="J3J-px-VME"/>
+                                    <constraint firstAttribute="bottom" secondItem="pab-bQ-TQm" secondAttribute="bottom" constant="4" id="PBN-mA-KQU"/>
+                                    <constraint firstAttribute="width" constant="50" id="x0X-lm-S0C"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="gallery/image" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPo-eq-KXT">
+                                <rect key="frame" x="15" y="8" width="338" height="29"/>
+                                <fontDescription key="fontDescription" name="JosefinSans-Light" family="Josefin Sans" pointSize="18"/>
+                                <color key="textColor" red="0.57254901960000004" green="0.57647058819999997" blue="0.58039215690000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JqY-Pj-psn">
+                                <rect key="frame" x="0.0" y="0.0" width="411" height="45"/>
+                                <connections>
+                                    <action selector="getimageAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="dgl-VQ-Yco"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="JqY-Pj-psn" firstAttribute="top" secondItem="17S-Re-QjT" secondAttribute="top" id="2Hc-uu-Q5a"/>
+                            <constraint firstItem="YUK-DB-wVH" firstAttribute="leading" secondItem="vPo-eq-KXT" secondAttribute="trailing" constant="8" id="9RK-Vq-l3c"/>
+                            <constraint firstAttribute="trailing" secondItem="YUK-DB-wVH" secondAttribute="trailing" id="Dig-1Q-Zu2"/>
+                            <constraint firstAttribute="height" constant="45" id="Fkb-l6-k4f"/>
+                            <constraint firstAttribute="bottom" secondItem="vPo-eq-KXT" secondAttribute="bottom" constant="8" id="IwX-SQ-VlB"/>
+                            <constraint firstItem="JqY-Pj-psn" firstAttribute="leading" secondItem="17S-Re-QjT" secondAttribute="leading" id="KJV-n5-e9F"/>
+                            <constraint firstAttribute="bottom" secondItem="YUK-DB-wVH" secondAttribute="bottom" id="S4Y-qs-Dga"/>
+                            <constraint firstItem="vPo-eq-KXT" firstAttribute="top" secondItem="17S-Re-QjT" secondAttribute="top" constant="8" id="SEg-aY-Bv6"/>
+                            <constraint firstItem="YUK-DB-wVH" firstAttribute="top" secondItem="17S-Re-QjT" secondAttribute="top" id="WUq-V7-diF"/>
+                            <constraint firstItem="vPo-eq-KXT" firstAttribute="leading" secondItem="17S-Re-QjT" secondAttribute="leading" constant="15" id="a6a-Ir-kEV"/>
+                            <constraint firstAttribute="bottom" secondItem="JqY-Pj-psn" secondAttribute="bottom" id="dvc-s1-D1v"/>
+                            <constraint firstAttribute="trailing" secondItem="JqY-Pj-psn" secondAttribute="trailing" id="nuP-nt-QAC"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="17S-Re-QjT" firstAttribute="top" secondItem="J6Q-3x-QWa" secondAttribute="bottom" id="1YQ-pl-l6A"/>
+                    <constraint firstItem="17S-Re-QjT" firstAttribute="leading" secondItem="J6Q-3x-QWa" secondAttribute="leading" id="2dC-eX-DAX"/>
+                    <constraint firstItem="17S-Re-QjT" firstAttribute="trailing" secondItem="J6Q-3x-QWa" secondAttribute="trailing" id="MKE-CE-LLU"/>
+                    <constraint firstItem="J6Q-3x-QWa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="Msx-AT-FQH"/>
+                    <constraint firstAttribute="trailing" secondItem="J6Q-3x-QWa" secondAttribute="trailing" constant="15" id="aHq-Ua-ngs"/>
+                    <constraint firstItem="J6Q-3x-QWa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="kJ4-NX-9iF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblimageName" destination="vPo-eq-KXT" id="vNt-0a-jLU"/>
+                <outlet property="lblimageheading" destination="J6Q-3x-QWa" id="fGL-ib-In3"/>
+                <outlet property="mainUiViewImage" destination="17S-Re-QjT" id="gde-VO-5CE"/>
+            </connections>
+            <point key="canvasLocation" x="180.43478260869566" y="61.607142857142854"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Attachment" width="11" height="12.5"/>
+    </resources>
+</document>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="JosefinSans-Regular_0.ttf">
+            <string>JosefinSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DriverNumberCell" rowHeight="148" id="KGk-i7-Jjw" customClass="DriverNumberCell" customModule="CarInsurance" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="474" height="148"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="474" height="147.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test number Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4nH-b4-CWw">
+                        <rect key="frame" x="20" y="15" width="434" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="OAZ-yB-WSY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="JosefinSans-Regular" family="Josefin Sans" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="znl-lP-hNl">
+                        <rect key="frame" x="20" y="45" width="434" height="45"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Write here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Iyd-o6-OiI">
+                                <rect key="frame" x="15" y="0.0" width="399" height="45"/>
+                                <color key="textColor" red="0.35294117650000001" green="0.35686274509999999" blue="0.36470588240000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="JosefinSans-Regular" family="Josefin Sans" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="7VA-La-ruG"/>
+                            <constraint firstItem="Iyd-o6-OiI" firstAttribute="top" secondItem="znl-lP-hNl" secondAttribute="top" id="Dv9-yg-GRm"/>
+                            <constraint firstItem="Iyd-o6-OiI" firstAttribute="leading" secondItem="znl-lP-hNl" secondAttribute="leading" constant="15" id="O2b-Mp-oQL"/>
+                            <constraint firstAttribute="trailing" secondItem="Iyd-o6-OiI" secondAttribute="trailing" constant="20" id="sya-OX-E88"/>
+                            <constraint firstAttribute="bottom" secondItem="Iyd-o6-OiI" secondAttribute="bottom" id="wAt-ks-H2C"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="znl-lP-hNl" firstAttribute="trailing" secondItem="4nH-b4-CWw" secondAttribute="trailing" id="64s-Fo-lU3"/>
+                    <constraint firstItem="4nH-b4-CWw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="8sI-r4-NMg"/>
+                    <constraint firstItem="4nH-b4-CWw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="EEt-UQ-wSw"/>
+                    <constraint firstItem="znl-lP-hNl" firstAttribute="top" secondItem="4nH-b4-CWw" secondAttribute="bottom" id="FbE-BL-vmr"/>
+                    <constraint firstAttribute="trailing" secondItem="4nH-b4-CWw" secondAttribute="trailing" constant="20" id="S1q-5Z-A6G"/>
+                    <constraint firstItem="znl-lP-hNl" firstAttribute="leading" secondItem="4nH-b4-CWw" secondAttribute="leading" id="nzm-tM-3AO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblquestionheading" destination="4nH-b4-CWw" id="qMh-lu-isS"/>
+                <outlet property="mainView" destination="znl-lP-hNl" id="IK8-lC-StR"/>
+                <outlet property="txtFild" destination="Iyd-o6-OiI" id="z68-tf-7Tr"/>
+            </connections>
+            <point key="canvasLocation" x="120" y="132"/>
+        </tableViewCell>
+    </objects>
+</document>

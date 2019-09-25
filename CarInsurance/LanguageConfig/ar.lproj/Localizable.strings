@@ -1,0 +1,300 @@
+/* 
+  Localizable.strings
+  CarInsurance
+
+  Created by Apple on 9/19/19.
+  Copyright © 2019 Apple. All rights reserved.
+*/
+/*
+ Localization.strings
+ CarInsurance
+ 
+ Created by Apple on 8/29/19.
+ Copyright © 2019 Apple. All rights reserved.
+ */
+"Change Language" = "غير اللغة";
+"Remember my Choice" = "تذكر خياري";
+"Choose any language to continue with " = "اختر أي لغة للمتابعة ";
+"Continue Login with facebook" = "متابعة تسجيل الدخول مع الفيسبوك";
+"Continue Login with Google" = "متابعة تسجيل الدخول مع جوجل";
+"Continue Login with Instagram" = "متابعة تسجيل الدخول مع Instagram";
+"Continue as Guest" = "تواصل كضيف";
+
+
+"Login" = "تسجيل الدخول";
+"Register" = "تسجيل";
+"OR" = "أو";
+"Email" = "البريد الإلكتروني";
+"Password" = "كلمه السر";
+
+
+"Forgot your password?" = "نسيت رقمك السري؟";
+"Don't have an account?" = "ليس لديك حساب؟";
+"Register Now" = "سجل الان";
+"Enter your email address below to recover your password" = "أدخل عنوان بريدك الإلكتروني أدناه لاستعادة كلمة المرور الخاصة بك";
+"Recover" = "استعادة";
+"Please enter verification code sent  at your email address to activate your account" = "الرجاء إدخال رمز التحقق الذي تم إرساله على عنوان بريدك الإلكتروني لتفعيل حسابك";
+
+
+"Resend Code" = "أعد إرسال الرمز";
+"Verification Code" = "شيفرة التأكيد";
+"Submit"  ="تقديم";
+
+
+
+"Please enter verification code sent at your email address to activate account" = "الرجاء إدخال رمز التحقق الذي تم إرساله على عنوان بريدك الإلكتروني لتنشيط الحساب";
+"Enter Code" = "ادخل الرمز";
+"Enter Confirm Password" =  "أدخل تأكيد كلمة المرور";
+"Enter New Password" = "أدخل كلمة مرور جديدة";
+
+
+"Car Insurance"  = "تأمين السيارة";
+"Date:" = "تاريخ:";
+"Select Insurance You Want Quote For" = "حدد التأمين الذي تريده";
+"Pending" = "قيد الانتظار";
+"Sorry there is no data available" = "آسف لا توجد بيانات متاحة";
+"Try Again!" = "حاول ثانية!";
+"Accepted" = "وافقت";
+"Total Quotes Recieved:" = "إجمالي الاقتباسات المستلمة:";
+"Order #" = "طلب #";
+
+
+"Profile" = "الملف الشخصي";
+"Settings" = "الإعدادات";
+"Terms And Conditions" = "الأحكام والشروط";
+"Privacy Policy" = "سياسة خاصة";
+"About Us" = "معلومات عنا";
+"Contact Us" = "اتصل بنا";
+"Logout" = "تسجيل خروج";
+
+
+"What can we help you with?" = "بمادا يمكننا ان نساعدك؟";
+"App Feedback" = "ملاحظات التطبيق";
+"Last Name" = "الكنية";
+"First Name" = "الاسم الاول";
+"Email" = "البريد الإلكتروني";
+"Message" = "رسالة";
+"Send" = "إرسال";
+
+
+"Password" = "كلمه السر";
+"Change Password" = "تغيير كلمة المرور";
+"Change" = "يتغيرون";
+"Language" = "لغة";
+"Change Language" = "غير اللغة";
+"Currency" = "دقة";
+"Select Currency" = "اختر العملة";
+
+"Notifications Settings" = "إعدادات الإخطارات";
+"Quotes" = "يقتبس";
+"Chats" = "دردشات";
+"Phone no:" = "رقم الهاتف:";
+"Gender:" = "جنس:";
+"Address:" = "عنوان:";
+"Edit Profile" = "تعديل الملف الشخصي";
+"Select Gender" = "حدد نوع الجنس";
+"First Name" = "الاسم الاول";
+"Last Name" = "الكنية";
+"Email" = "البريد الإلكتروني";
+"Phone No" = "رقم الهاتف";
+"Address" = "عنوان";
+"Male" = "الذكر";
+"Female" = "أنثى";
+"Save" = "حفظ";
+
+
+"Change Password" = "تغيير كلمة المرور";
+"Current Password" = "كلمة المرور الحالية";
+"New Password" = "كلمة سر جديدة";
+"Confirm New Password" = "تأكيد كلمة المرور الجديدة";
+"Quotation #" = "اقتباس #";
+"User's Info" = "معلومات المستخدم";
+"Order Link" = "ترتيب الارتباط";
+"Quotation Link" = "رابط الاقتباس";
+"Insurance Policy Link" = "رابط سياسة التأمين";
+
+
+"OK"  = "حسنا";
+"Ok" = "حسنا";
+"Shipping Address:" = "عنوان الشحن:";
+"Billing Address:" = "عنوان وصول الفواتير:";
+"User Address" = "عنوان المستخدم";
+
+
+"Vehicle Information" = "معلومات السيارة";
+"Next" = "التالى";
+"Get A Quote" = "إقتبس";
+"I want to edit" = "اريد التعديل";
+"Confirm" = "تؤكد";
+"Please verify if the details below are correct." = "يرجى التحقق من صحة التفاصيل أدناه.";
+
+"Your order has been successfully sent" = "تم ارسال طلبك بنجاح";
+
+
+"Live Chat"  = "دردشة مباشرة";
+"Notifications" = "إشعارات";
+"Pull to refresh" = "سحب لتحديث";
+
+
+
+
+
+"Comprehensive Insurance type" = "نوع التأمين الشامل";
+"Add Policy File" = "إضافة ملف السياسة";
+"Sent" = "أرسلت";
+"Received" = "تم الاستلام";
+"Order # :" = "طلب # :";
+"Company Quote Detail" = "شركة اقتبس التفاصيل";
+"Detail" = "التفاصيل";
+"Total Price :" = "السعر الكلي :";
+
+
+"Addresses" = "عناوين";
+"Select Payment Option" = "حدد خيار الدفع";
+"First Name" = "الاسم الاول";
+"Email" = "البريد الإلكتروني";
+"Last Name" = "الكنية";
+"Phone Number" = "رقم الهاتف";
+"Address 1" = "العنوان 1";
+"Address2" = "العنوان 2";
+"Postcode / Zip" = "الرمز البريدي / الرمز البريدي";
+"Ship To A Different Address?" = "السفينة إلى عنوان مختلف؟";
+"Pickup Address" = "عنوان الالتقاط";
+"Cash On Delivery" = "الدفع عند الاستلام";
+"Continue With Paypal" = "تواصل مع باي بال";
+"Select Payment Option" = "حدد خيار الدفع";
+
+
+"Send Quote" = "إرسال اقتباس";
+"Terms & Conditions"  = "البنود و الظروف";
+"Organization Name : (Arabic)" = "اسم المنظمة: (العربية)";
+"Organization Name : (English)" = "اسم المنظمة: (الإنجليزية)";
+"Detail (English)" = "التفاصيل (الإنجليزية)";
+"Detail (Arabic)"  = "التفاصيل (العربية)";
+"Terms & Conditions (Arabic)" = "الشروط والأحكام (العربية)";
+"Terms & Conditions (English)" = "الشروط والأحكام (الإنجليزية)";
+
+
+//MARK: - Alerts
+
+"Please Enter Email" = "الرجاء إدخال البريد الإلكتروني";
+"Please Enter Password"  = "من فضلك أدخل كلمة المرور";
+"Please Enter Valid Email" = "الرجاء إدخال بريد إلكتروني صحيح";
+"Forgot Password" = "هل نسيت كلمة المرور";
+"Email Verification" = "تأكيد بواسطة البريد الالكتروني";
+"Please Enter Code" = "من فضلك ادخل الكود";
+
+
+"Please Enter First Name" = "الرجاء إدخال الاسم الأول";
+"Please Enter First Name 3 to 35 Characters" = "الرجاء إدخال الاسم الأول من 3 إلى 35 حرفًا";
+"Please Enter Last Name 3 to 35 Characters" = "الرجاء إدخال اسم العائلة من 3 إلى 35 حرفًا";
+"Please Enter Last Name" = "الرجاء إدخال اسم العائلة";
+"Please Enter Password" = "من فضلك أدخل كلمة المرور";
+"Please Enter Confirm Password" = "الرجاء إدخال تأكيد كلمة المرور";
+"Password Does Not Match" = "كلمة السر غير متطابقة";
+"Password must be between 6-32 characters" = "يجب أن تكون كلمة المرور بين 6-32 حرفًا";
+"Confirm Password must be between 6-32 characters" = "يجب أن يكون تأكيد كلمة المرور بين 6-32 حرفًا";
+
+
+"Reset Password" = "إعادة تعيين كلمة المرور";
+"Please Enter New Password" = "الرجاء إدخال كلمة مرور جديدة";
+"Please Enter confirm Password" = "الرجاء إدخال تأكيد كلمة المرور";
+
+"Please Log in first" = "الرجاء تسجيل الدخول أولا";
+"Cancel" = "إلغاء";
+"Alert" = "إنذار";
+"YES" = "نعم";
+"NO" = "لا";
+" First Name Must be  3 to 30 Characters" = " يجب أن يكون الاسم الأول من 3 إلى 30 حرفًا";
+"Last  Name Must be 3 to 30 Characters"  = "يجب أن يكون اسم العائلة من 3 إلى 30 حرفًا";
+"Please Enter Your Message" = "أدرج رسالتك من فضلك";
+"Message Length too Short" =  "طول الرسالة قصيرة جدا";
+"Somthing Went wrong! Please Check Your Email or Message  " = "شيء خاطئ! يرجى التحقق من بريدك الإلكتروني أو الرسالة ";
+"Write your message here" = "اكتب رسالتك هنا";
+"Camera" = "الة تصوير";
+"Camera is not available" = "الكاميرا غير متوفرة";
+"First Name must be 3 to 30 characters" = "يجب أن يكون الاسم الأول من 3 إلى 30 حرفًا";
+"Last Name must be 3 to 30 characters"  = "يجب أن يكون اسم العائلة من 3 إلى 30 حرفًا";
+"Please Enter Address" = "الرجاء إدخال العنوان";
+"Please Enter PhoneNumber" = "الرجاء إدخال رقم الهاتف";
+"Please Enter Valid PhoneNumber" = "الرجاء إدخال رقم هاتف صحيح";
+"Please Select an Option" = "يرجى اختيار خيار";
+"Photo Library" = "مكتبة الصور";
+"Camera" = "الة تصوير";
+
+"Please Enter Your Current Password"  = "الرجاء إدخال كلمة المرور الحالية";
+"Please Enter Your New Password" = "من فضلك أدخل كلمة المرور الجديدة";
+"New Password must be between 6-32 characters" = "يجب أن تكون كلمة المرور الجديدة بين 6-32 حرفًا";
+"Please Enter Your Confirm Password" = "الرجاء إدخال كلمة المرور الخاصة بك";
+"Confirm Password must be between 6-32 characters" = "يجب أن يكون تأكيد كلمة المرور بين 6-32 حرفًا";
+"New Password And Confirm New Password Should Be Same!" = "كلمة المرور الجديدة وتأكيد كلمة المرور الجديدة يجب أن تكون هي نفسها!";
+
+
+
+
+"Please Enter Organization Name In English!"  = "الرجاء إدخال اسم المنظمة باللغة الإنجليزية!";
+" English Name Must be  3 to 30 Characters" =  " يجب أن يكون الاسم باللغة الإنجليزية من 3 إلى 30 حرفًا";
+"Please Enter Organization Name In Arabic!" = "الرجاء إدخال اسم المنظمة باللغة العربية!";
+" Arabic Name Must be  3 to 30 Characters"  = " يجب أن يكون الاسم باللغة العربية من 3 إلى 30 حرفًا";
+"Please Enter The Phone Number!" = "من فضلك ادخل رقم الهاتف";
+"Please Enter The Valid Phone Number!" =  "الرجاء إدخال رقم الهاتف صالح!";
+"Please Enter The Valid Phone Number!" =  "الرجاء إدخال رقم الهاتف صالح!";
+"Please Enter Email!" =  "الرجاء إدخال البريد الإلكتروني!";
+
+
+
+"Terms and Conditions in Arabic  Length is Too  Short!"  = "الشروط والأحكام باللغة العربية المدة قصيرة جدًا!";
+"Please Enter Terms And Conditions in Arabic!" = "الرجاء إدخال الشروط والأحكام باللغة العربية!";
+"Terms and Conditions in English  Length is Too  Short!" =  "البنود والشروط باللغة الإنجليزية المدة قصيرة جدًا!";
+"Please Enter English Terms And Conditions!" =  "الرجاء إدخال الشروط والأحكام الإنجليزية!";
+"Detail in English  Length is Too  Short!" =  "التفاصيل باللغة الإنجليزية الطول قصير جدًا!";
+"Please Enter The Detail In English!"  = "الرجاء إدخال التفاصيل باللغة الإنجليزية!";
+"Detail in Arabic  Length is Too  Short!"  = "التفاصيل باللغة العربية الطول قصير جدًا!";
+"Please Enter The Detail In Arabic!" =  "الرجاء إدخال التفاصيل باللغة العربية!";
+
+//
+"Continue" = "استمر";
+"Confirm Password" = "تأكيد كلمة المرور";
+"Already  have an account?" = "هل لديك حساب؟";
+"Select Gender" =  "حدد نوع الجنس";
+"Sign Up" = "سجل";
+"Login Now" = "تسجيل الدخول الآن";
+"Login or Create Account" = "تسجيل الدخول أو إنشاء حساب";
+"Home" = "الصفحة الرئيسية";
+"Quotations" = "الاقتباسات";
+"Menu" = "قائمة طعام";
+//
+"Logout?" = "تسجيل خروج؟";
+"Do you want to Logout?" = "هل ترغب بالخروج؟";
+"Something went wrong" = "هناك خطأ ما";
+"View Policy File" = "عرض ملف السياسة";
+"Buy Now" = "اشتري الآن";
+"Basic Price" = "السعر الأساسي";
+"Payment Date :" = "تاريخ الدفع :";
+"Basic Price :" = "السعر الأساسي :";
+"Accepted Quotation Detail" = "تفاصيل الاقتباس مقبولة";
+"Quotation Detail" = "تفاصيل الاقتباس";
+"Write message..." = "اكتب رسالة...";
+"Send" = "إرسال";
+
+//
+"days ago" = "أيام مضت";
+"hours ago" = "منذ ساعات";
+"minutes ago" = "دقائق مضت";
+"second ago" = "قبل الثانية";
+"just now" = "الآن فقط";
+"seconds ago" = "منذ ثوانى";
+"ago" = "منذ";
+"minute" = "دقيقة";
+"minutes" = "الدقائق";
+"hour" = "ساعة";
+"hours" = "ساعات";
+"day" = "يوم";
+"days" = "أيام";
+"month" = "شهر";
+"months" = "الشهور";
+"year" = "عام";
+"years" = "سنوات";
+"Place Order" = "مكان الامر";
+"Please Write something" = "من فضلك اكتب شيا";
+"Follow Us" = "تابعنا";

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="JosefinSans-SemiBold_1.ttf">
+            <string>JosefinSans-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="companyTotalpriceCell" rowHeight="61" id="KGk-i7-Jjw" customClass="companyTotalpriceCell" customModule="CarInsurance" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="416" height="61"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="416" height="60.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OGk-g0-p2Y">
+                        <rect key="frame" x="20" y="0.0" width="376" height="50"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Price :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rWa-Gm-Jjn">
+                                <rect key="frame" x="20" y="9" width="96.5" height="32"/>
+                                <fontDescription key="fontDescription" name="JosefinSans-SemiBold" family="Josefin Sans" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AED 567" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DpU-IK-Gnq">
+                                <rect key="frame" x="283.5" y="9" width="72.5" height="32"/>
+                                <fontDescription key="fontDescription" name="JosefinSans-SemiBold" family="Josefin Sans" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.5818647146" green="0.82635301350000001" blue="0.26472195980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="DpU-IK-Gnq" secondAttribute="trailing" constant="20" id="Fyf-b2-F83"/>
+                            <constraint firstItem="DpU-IK-Gnq" firstAttribute="top" secondItem="OGk-g0-p2Y" secondAttribute="top" constant="9" id="PYk-Ld-MgF"/>
+                            <constraint firstItem="rWa-Gm-Jjn" firstAttribute="leading" secondItem="OGk-g0-p2Y" secondAttribute="leading" constant="20" id="mew-FB-ruN"/>
+                            <constraint firstAttribute="bottom" secondItem="DpU-IK-Gnq" secondAttribute="bottom" constant="9" id="sdP-LO-SRC"/>
+                            <constraint firstAttribute="bottom" secondItem="rWa-Gm-Jjn" secondAttribute="bottom" constant="9" id="tL3-An-2an"/>
+                            <constraint firstItem="rWa-Gm-Jjn" firstAttribute="top" secondItem="OGk-g0-p2Y" secondAttribute="top" constant="9" id="uTJ-nM-4fJ"/>
+                        </constraints>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shadow_right" translatesAutoresizingMaskIntoConstraints="NO" id="vCT-fH-EcF">
+                        <rect key="frame" x="396" y="0.0" width="3" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="3" id="ddH-YS-Ddn"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shadow_left" translatesAutoresizingMaskIntoConstraints="NO" id="6nF-6g-0BD">
+                        <rect key="frame" x="17" y="0.0" width="3" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="3" id="htW-tX-Fsy"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="OGk-g0-p2Y" secondAttribute="bottom" constant="10.5" id="00A-I1-NzW"/>
+                    <constraint firstItem="6nF-6g-0BD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="6Wa-Ti-m3L"/>
+                    <constraint firstAttribute="bottom" secondItem="vCT-fH-EcF" secondAttribute="bottom" constant="10.5" id="Fsg-Qw-qa7"/>
+                    <constraint firstAttribute="bottom" secondItem="6nF-6g-0BD" secondAttribute="bottom" constant="10.5" id="GGT-dY-M8k"/>
+                    <constraint firstItem="OGk-g0-p2Y" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="PqF-Am-I4I"/>
+                    <constraint firstAttribute="trailing" secondItem="OGk-g0-p2Y" secondAttribute="trailing" constant="20" id="VQw-Mb-f4h"/>
+                    <constraint firstItem="OGk-g0-p2Y" firstAttribute="leading" secondItem="6nF-6g-0BD" secondAttribute="trailing" id="d3W-MA-dpT"/>
+                    <constraint firstItem="OGk-g0-p2Y" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="e1i-t9-BEq"/>
+                    <constraint firstItem="vCT-fH-EcF" firstAttribute="leading" secondItem="OGk-g0-p2Y" secondAttribute="trailing" id="kpU-C2-oti"/>
+                    <constraint firstItem="vCT-fH-EcF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="pIv-me-IOo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblPrice" destination="DpU-IK-Gnq" id="JvS-cc-pna"/>
+                <outlet property="mainView" destination="OGk-g0-p2Y" id="g30-BY-fiA"/>
+            </connections>
+            <point key="canvasLocation" x="201.44927536231884" y="122.87946428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="shadow_left" width="4" height="4.5"/>
+        <image name="shadow_right" width="4" height="4.5"/>
+    </resources>
+</document>

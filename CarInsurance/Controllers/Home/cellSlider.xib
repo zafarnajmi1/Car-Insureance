@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="JosefinSans-Bold_1.ttf">
+            <string>JosefinSans-Bold</string>
+        </array>
+        <array key="JosefinSans-Light_1.ttf">
+            <string>JosefinSans-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="cellSlider" customModule="CarInsurance" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="351" height="123"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="351" height="123"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bg" translatesAutoresizingMaskIntoConstraints="NO" id="vDh-dn-yeW">
+                        <rect key="frame" x="0.0" y="0.0" width="351" height="123"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uzB-7B-L9X">
+                        <rect key="frame" x="0.0" y="0.0" width="351" height="123"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOREM IMSUM DOLOR" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QOy-dW-zwP">
+                        <rect key="frame" x="40" y="55" width="271" height="20"/>
+                        <fontDescription key="fontDescription" name="JosefinSans-Bold" family="Josefin Sans" pointSize="20"/>
+                        <color key="textColor" red="0.30980392156862746" green="0.59215686274509804" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="atN-T0-Bbt">
+                        <rect key="frame" x="80" y="75" width="191" height="18"/>
+                        <fontDescription key="fontDescription" name="JosefinSans-Light" family="Josefin Sans" pointSize="18"/>
+                        <color key="textColor" red="0.23123764991760254" green="0.23532694578170776" blue="0.23530712723731995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="QOy-dW-zwP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="40" id="120-Ep-aJw"/>
+                <constraint firstItem="atN-T0-Bbt" firstAttribute="top" secondItem="QOy-dW-zwP" secondAttribute="bottom" id="1GS-Q9-6kP"/>
+                <constraint firstAttribute="trailing" secondItem="vDh-dn-yeW" secondAttribute="trailing" id="1Ze-kk-PkN"/>
+                <constraint firstItem="atN-T0-Bbt" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="80" id="26z-0J-b3U"/>
+                <constraint firstItem="uzB-7B-L9X" firstAttribute="width" secondItem="vDh-dn-yeW" secondAttribute="width" id="8tK-N3-G9o"/>
+                <constraint firstItem="vDh-dn-yeW" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="NGf-VZ-TR6"/>
+                <constraint firstItem="uzB-7B-L9X" firstAttribute="top" secondItem="vDh-dn-yeW" secondAttribute="top" id="Ogq-Uo-T5n"/>
+                <constraint firstAttribute="trailing" secondItem="QOy-dW-zwP" secondAttribute="trailing" constant="40" id="PUL-RK-trS"/>
+                <constraint firstAttribute="trailing" secondItem="atN-T0-Bbt" secondAttribute="trailing" constant="80" id="Xf7-lc-3aD"/>
+                <constraint firstItem="uzB-7B-L9X" firstAttribute="leading" secondItem="vDh-dn-yeW" secondAttribute="leading" id="dl0-rj-8Sp"/>
+                <constraint firstItem="uzB-7B-L9X" firstAttribute="trailing" secondItem="vDh-dn-yeW" secondAttribute="trailing" id="eyR-2b-YDF"/>
+                <constraint firstItem="uzB-7B-L9X" firstAttribute="bottom" secondItem="vDh-dn-yeW" secondAttribute="bottom" id="iPF-xz-530"/>
+                <constraint firstItem="QOy-dW-zwP" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="55" id="m7R-90-nTr"/>
+                <constraint firstItem="vDh-dn-yeW" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="p4c-7B-P9D"/>
+                <constraint firstAttribute="bottom" secondItem="vDh-dn-yeW" secondAttribute="bottom" id="x9V-dw-cJf"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="351" height="123"/>
+            <connections>
+                <outlet property="bgimage" destination="vDh-dn-yeW" id="mIE-Z2-dib"/>
+                <outlet property="lbldetail" destination="atN-T0-Bbt" id="oic-za-668"/>
+                <outlet property="lblname" destination="QOy-dW-zwP" id="FIG-cz-kWK"/>
+                <outlet property="mainimage" destination="uzB-7B-L9X" id="xpQ-NG-VR4"/>
+            </connections>
+            <point key="canvasLocation" x="148.55072463768118" y="44.53125"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Bg" width="1080" height="365"/>
+    </resources>
+</document>

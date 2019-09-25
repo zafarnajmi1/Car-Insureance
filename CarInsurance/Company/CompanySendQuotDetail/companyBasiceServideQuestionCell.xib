@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="JosefinSans-Regular_0.ttf">
+            <string>JosefinSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="companyBasiceServideQuestionCell" rowHeight="90" id="KGk-i7-Jjw" customClass="companyBasiceServideQuestionCell" customModule="CarInsurance" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="536" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="536" height="89.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MxD-Be-2OY">
+                        <rect key="frame" x="20" y="11" width="496" height="62"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XIM-C1-51u">
+                                <rect key="frame" x="20" y="0.0" width="456" height="18"/>
+                                <fontDescription key="fontDescription" name="JosefinSans-Regular" family="Josefin Sans" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Grk-qd-2NA">
+                                <rect key="frame" x="20" y="26" width="456" height="16"/>
+                                <fontDescription key="fontDescription" name="JosefinSans-Regular" family="Josefin Sans" pointSize="16"/>
+                                <color key="textColor" red="0.35669040680000003" green="0.36067676539999999" blue="0.36894291639999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Grk-qd-2NA" firstAttribute="trailing" secondItem="XIM-C1-51u" secondAttribute="trailing" id="GdE-UQ-BT9"/>
+                            <constraint firstItem="XIM-C1-51u" firstAttribute="top" secondItem="MxD-Be-2OY" secondAttribute="top" id="OWe-HU-ZMz"/>
+                            <constraint firstItem="XIM-C1-51u" firstAttribute="leading" secondItem="MxD-Be-2OY" secondAttribute="leading" constant="20" id="YM4-uW-Xgf"/>
+                            <constraint firstItem="Grk-qd-2NA" firstAttribute="leading" secondItem="XIM-C1-51u" secondAttribute="leading" id="cti-M4-qQe"/>
+                            <constraint firstAttribute="trailing" secondItem="XIM-C1-51u" secondAttribute="trailing" constant="20" id="jpf-ud-Uqw"/>
+                            <constraint firstItem="Grk-qd-2NA" firstAttribute="top" secondItem="XIM-C1-51u" secondAttribute="bottom" constant="8" id="tav-bw-S8t"/>
+                        </constraints>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shadow_right" translatesAutoresizingMaskIntoConstraints="NO" id="xUO-58-m02">
+                        <rect key="frame" x="516" y="0.0" width="3" height="90"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="3" id="NHX-K2-dI4"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shadow_left" translatesAutoresizingMaskIntoConstraints="NO" id="1JM-77-XGw">
+                        <rect key="frame" x="17" y="0.0" width="3" height="90"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="3" id="KaR-mW-giy"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="1JM-77-XGw" secondAttribute="bottom" constant="-0.5" id="0ZH-CR-qIQ"/>
+                    <constraint firstAttribute="bottom" secondItem="MxD-Be-2OY" secondAttribute="bottom" constant="16.5" id="7tt-7n-vUB"/>
+                    <constraint firstItem="xUO-58-m02" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="H7w-LK-0A7"/>
+                    <constraint firstItem="xUO-58-m02" firstAttribute="leading" secondItem="MxD-Be-2OY" secondAttribute="trailing" id="Nfd-Hc-Bbo"/>
+                    <constraint firstItem="1JM-77-XGw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="TJw-iD-PGS"/>
+                    <constraint firstItem="MxD-Be-2OY" firstAttribute="leading" secondItem="1JM-77-XGw" secondAttribute="trailing" id="bMW-pC-FVm"/>
+                    <constraint firstItem="MxD-Be-2OY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="iLn-Nt-gz7"/>
+                    <constraint firstItem="MxD-Be-2OY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="sUg-Qj-uFB"/>
+                    <constraint firstAttribute="bottom" secondItem="xUO-58-m02" secondAttribute="bottom" constant="-0.5" id="x6C-ya-uJW"/>
+                    <constraint firstAttribute="trailing" secondItem="MxD-Be-2OY" secondAttribute="trailing" constant="20" id="yLL-68-LI2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblanswer" destination="Grk-qd-2NA" id="VQd-ce-lYU"/>
+                <outlet property="lblquestion" destination="XIM-C1-51u" id="O1z-0D-MvO"/>
+            </connections>
+            <point key="canvasLocation" x="288.40579710144931" y="133.92857142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="shadow_left" width="4" height="4.5"/>
+        <image name="shadow_right" width="4" height="4.5"/>
+    </resources>
+</document>

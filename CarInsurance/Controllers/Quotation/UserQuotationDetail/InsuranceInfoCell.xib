@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="JosefinSans-Light_1.ttf">
+            <string>JosefinSans-Light</string>
+        </array>
+        <array key="JosefinSans-Regular_0.ttf">
+            <string>JosefinSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="InsuranceInfoCell" rowHeight="33" id="KGk-i7-Jjw" customClass="InsuranceInfoCell" customModule="CarInsurance" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="353" height="33"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="353" height="32.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Private Use:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pp2-fZ-R4g">
+                        <rect key="frame" x="20" y="0.0" width="231" height="18"/>
+                        <fontDescription key="fontDescription" name="JosefinSans-Regular" family="Josefin Sans" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yes" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jaP-Bd-uNH">
+                        <rect key="frame" x="259" y="0.0" width="74" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="74" id="GuH-eD-yak"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="JosefinSans-Light" family="Josefin Sans" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="pp2-fZ-R4g" secondAttribute="bottom" constant="14.5" id="2Vd-3f-uaS"/>
+                    <constraint firstItem="jaP-Bd-uNH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="C2D-W6-Rm7"/>
+                    <constraint firstItem="pp2-fZ-R4g" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="MlU-eD-bgq"/>
+                    <constraint firstAttribute="trailing" secondItem="jaP-Bd-uNH" secondAttribute="trailing" constant="20" id="XLN-dE-dN1"/>
+                    <constraint firstItem="pp2-fZ-R4g" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Xva-yZ-UoH"/>
+                    <constraint firstItem="jaP-Bd-uNH" firstAttribute="leading" secondItem="pp2-fZ-R4g" secondAttribute="trailing" constant="8" id="cCh-uZ-hHL"/>
+                    <constraint firstAttribute="bottom" secondItem="jaP-Bd-uNH" secondAttribute="bottom" constant="14.5" id="xdF-c9-rCv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblinsurandAnswer" destination="jaP-Bd-uNH" id="rJp-db-WNa"/>
+                <outlet property="lblinsuranquestions" destination="pp2-fZ-R4g" id="Q0l-UB-SSA"/>
+            </connections>
+            <point key="canvasLocation" x="155.79710144927537" y="128.90625"/>
+        </tableViewCell>
+    </objects>
+</document>

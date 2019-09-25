@@ -1,0 +1,6 @@
+framework module MLTontiatorView {
+  umbrella header "MLTontiatorView-umbrella.h"
+
+  export *
+  module * { export * }
+}

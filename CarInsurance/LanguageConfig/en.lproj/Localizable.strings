@@ -1,0 +1,300 @@
+/* 
+  Localizable.strings
+  CarInsurance
+
+  Created by Apple on 9/19/19.
+  Copyright © 2019 Apple. All rights reserved.
+*/
+/*
+ Localization.strings
+ CarInsurance
+ 
+ Created by Apple on 8/29/19.
+ Copyright © 2019 Apple. All rights reserved.
+ */
+"Change Language" = "Change Language";
+"Remember my Choice" = "Remember my Choice";
+"Choose any language to continue with " = "Choose any language to continue with ";
+"Continue Login with facebook" = "Continue Login with facebook";
+"Continue Login with Google" = "Continue Login with Google";
+"Continue Login with Instagram" = "Continue Login with Instagram";
+"Continue as Guest" = "Continue as Guest";
+
+
+"Login" = "Login";
+"Register" = "Register";
+"OR" = "OR";
+"Email" = "Email";
+"Password" = "Password";
+
+
+"Forgot your password?" = "Forgot your password?";
+"Don't have an account?" = "Don't have an account?";
+"Register Now" = "Register Now";
+"Enter your email address below to recover your password" = "Enter your email address below to recover your password";
+"Recover" = "Recover";
+"Please enter verification code sent  at your email address to activate your account" = "Please enter verification code sent  at your email address to activate your account";
+
+
+"Resend Code" = "Resend Code";
+"Verification Code" = "Verification Code";
+"Submit"  ="Submit";
+
+
+
+"Please enter verification code sent at your email address to activate account" = "Please enter verification code sent at your email address to activate account";
+"Enter Code" = "Enter Code";
+"Enter Confirm Password" =  "Enter Confirm Password";
+"Enter New Password" = "Enter New Password";
+
+
+"Car Insurance"  = "Car Insurance";
+"Date:" = "Date:";
+"Select Insurance You Want Quote For" = "Select Insurance You Want Quote For";
+"Pending" = "Pending";
+"Sorry there is no data available" = "Sorry there is no data available";
+"Try Again!" = "Try Again!";
+"Accepted" = "Accepted";
+"Total Quotes Recieved:" = "Total Quotes Recieved:";
+"Order #" = "Order #";
+
+
+"Profile" = "Profile";
+"Settings" = "Settings";
+"Terms And Conditions" = "Terms And Conditions";
+"Privacy Policy" = "Privacy Policy";
+"About Us" = "About Us";
+"Contact Us" = "Contact Us";
+"Logout" = "Logout";
+
+
+"What can we help you with?" = "What can we help you with?";
+"App Feedback" = "App Feedback";
+"Last Name" = "Last Name";
+"First Name" = "First Name";
+"Email" = "Email";
+"Message" = "Message";
+"Send" = "Send";
+
+
+"Password" = "Password";
+"Change Password" = "Change Password";
+"Change" = "Change";
+"Language" = "Language";
+"Change Language" = "Change Language";
+"Currency" = "Currency";
+"Select Currency" = "Select Currency";
+
+"Notifications Settings" = "Notifications Settings";
+"Quotes" = "Quotes";
+"Chats" = "Chats";
+"Phone no:" = "Phone no:";
+"Gender:" = "Gender:";
+"Address:" = "Address:";
+"Edit Profile" = "Edit Profile";
+"Select Gender" = "Select Gender";
+"First Name" = "First Name";
+"Last Name" = "Last Name";
+"Email" = "Email";
+"Phone No" = "Phone No";
+"Address" = "Address";
+"Male" = "Male";
+"Female" = "Female";
+"Save" = "Save";
+
+
+"Change Password" = "Change Password";
+"Current Password" = "Current Password";
+"New Password" = "New Password";
+"Confirm New Password" = "Confirm New Password";
+"Quotation #" = "Quotation #";
+"User's Info" = "User's Info";
+"Order Link" = "Order Link";
+"Quotation Link" = "Quotation Link";
+"Insurance Policy Link" = "Insurance Policy Link";
+
+
+"OK"  = "OK";
+"Shipping Address:" = "Shipping Address:";
+"Billing Address:" = "Billing Address:";
+"User Address" = "User Address";
+
+
+"Vehicle Information" = "Vehicle Information";
+"Next" = "Next";
+"Get A Quote" = "Get A Quote";
+"I want to edit" = "I want to edit";
+"Confirm" = "Confirm";
+"Please verify if the details below are correct." = "Please verify if the details below are correct.";
+
+"Your order has been successfully sent" = "Your order has been successfully sent";
+
+
+"Live Chat"  = "Live Chat";
+"Notifications" = "Notifications";
+"Pull to refresh" = "Pull to refresh";
+
+
+
+
+
+"Comprehensive Insurance type" = "Comprehensive Insurance type";
+"Add Policy File" = "Add Policy File";
+"Sent" = "Sent";
+"Received" = "Received";
+"Order # :" = "Order # :";
+"Company Quote Detail" = "Company Quote Detail";
+"Detail" = "Detail";
+"Total Price :" = "Total Price :";
+
+
+"Addresses" = "Addresses";
+"Select Payment Option" = "Select Payment Option";
+"First Name" = "First Name";
+"Email" = "Email";
+"Last Name" = "Last Name";
+"Phone Number" = "Phone Number";
+"Address 1" = "Address 1";
+"Address2" = "Address2";
+"Postcode / Zip" = "Postcode / Zip";
+"Ship To A Different Address?" = "Ship To A Different Address?";
+"Pickup Address" = "Pickup Address";
+"Cash On Delivery" = "Cash On Delivery";
+"Continue With Paypal" = "Continue With Paypal";
+"Select Payment Option" = "Select Payment Option";
+
+
+"Send Quote" = "Send Quote";
+"Terms & Conditions"  = "Terms & Conditions";
+"Organization Name : (Arabic)" = "Organization Name : (Arabic)";
+"Organization Name : (English)" = "Organization Name : (English)";
+"Detail (English)" = "Detail (English)";
+"Detail (Arabic)"  = "Detail (Arabic)";
+"Terms & Conditions (Arabic)" = "Terms & Conditions (Arabic)";
+"Terms & Conditions (English)" = "Terms & Conditions (English)";
+
+
+//MARK: - Alerts
+
+"Please Enter Email" = "Please Enter Email";
+"Please Enter Password"  = "Please Enter Password";
+"Please Enter Valid Email" = "Please Enter Valid Email";
+"Forgot Password" = "Forgot Password";
+"Email Verification" = "Email Verification";
+"Please Enter Code" = "Please Enter Code";
+
+
+"Please Enter First Name" = "Please Enter First Name";
+"Please Enter First Name 3 to 35 Characters" = "Please Enter First Name 3 to 35 Characters";
+"Please Enter Last Name 3 to 35 Characters" = "Please Enter Last Name 3 to 35 Characters";
+"Please Enter Last Name" = "Please Enter Last Name";
+"Please Enter Password" = "Please Enter Password";
+"Please Enter Confirm Password" = "Please Enter Confirm Password";
+"Password Does Not Match" = "Password Does Not Match";
+"Password must be between 6-32 characters" = "Password must be between 6-32 characters";
+"Confirm Password must be between 6-32 characters" = "Confirm Password must be between 6-32 characters";
+
+
+"Reset Password" = "Reset Password";
+"Please Enter New Password" = "Please Enter New Password";
+"Please Enter confirm Password" = "Please Enter confirm Password";
+
+"Please Log in first" = "Please Log in first";
+"Cancel" = "Cancel";
+"Alert" = "Alert";
+"YES" = "YES";
+"NO" = "NO";
+" First Name Must be  3 to 30 Characters" = " First Name Must be  3 to 30 Characters";
+"Last  Name Must be 3 to 30 Characters"  = "Last  Name Must be 3 to 30 Characters";
+"Please Enter Your Message" = "Please Enter Your Message";
+"Message Length too Short" =  "Message Length too Short";
+"Somthing Went wrong! Please Check Your Email or Message  " = "Somthing Went wrong! Please Check Your Email or Message  ";
+"Write your message here" = "Write your message here";
+"Camera" = "Camera";
+"Camera is not available" = "Camera is not available";
+"First Name must be 3 to 30 characters" = "First Name must be 3 to 30 characters";
+"Last Name must be 3 to 30 characters"  = "Last Name must be 3 to 30 characters";
+"Please Enter Address" = "Please Enter Address";
+"Please Enter PhoneNumber" = "Please Enter PhoneNumber";
+"Please Enter Valid PhoneNumber" = "Please Enter Valid PhoneNumber";
+"Please Select an Option" = "Please Select an Option";
+"Photo Library" = "Photo Library";
+"Camera" = "Camera";
+
+"Please Enter Your Current Password"  = "Please Enter Your Current Password";
+"Please Enter Your New Password" = "Please Enter Your New Password";
+"New Password must be between 6-32 characters" = "New Password must be between 6-32 characters";
+"Please Enter Your Confirm Password" = "Please Enter Your Confirm Password";
+"Confirm Password must be between 6-32 characters" = "Confirm Password must be between 6-32 characters";
+"New Password And Confirm New Password Should Be Same!" = "New Password And Confirm New Password Should Be Same!";
+
+
+
+
+"Please Enter Organization Name In English!"  = "Please Enter Organization Name In English!";
+" English Name Must be  3 to 30 Characters" =  " English Name Must be  3 to 30 Characters";
+"Please Enter Organization Name In Arabic!" = "Please Enter Organization Name In Arabic!";
+" Arabic Name Must be  3 to 30 Characters"  = " Arabic Name Must be  3 to 30 Characters";
+"Please Enter The Phone Number!" = "Please Enter The Phone Number!";
+"Please Enter The Valid Phone Number!" =  "Please Enter The Valid Phone Number!";
+"Please Enter The Valid Phone Number!" =  "Please Enter The Valid Phone Number!";
+"Please Enter Email!" =  "Please Enter Email!";
+
+
+
+"Terms and Conditions in Arabic  Length is Too  Short!"  = "Terms and Conditions in Arabic  Length is Too  Short!";
+"Please Enter Terms And Conditions in Arabic!" = "Please Enter Terms And Conditions in Arabic!";
+"Terms and Conditions in English  Length is Too  Short!" =  "Terms and Conditions in English  Length is Too  Short!";
+"Please Enter English Terms And Conditions!" =  "Please Enter English Terms And Conditions!";
+"Detail in English  Length is Too  Short!" =  "Detail in English  Length is Too  Short!";
+"Please Enter The Detail In English!"  = "Please Enter The Detail In English!";
+"Detail in Arabic  Length is Too  Short!"  = "Detail in Arabic  Length is Too  Short!";
+"Please Enter The Detail In Arabic!" =  "Please Enter The Detail In Arabic!";
+
+//
+"Continue" = "Continue";
+"Confirm Password" = "Confirm Password";
+"Already  have an account?" = "Already  have an account?";
+"Select Gender" =  "Select Gender";
+"Sign Up" = "Sign Up";
+"Login Now" = "Login Now";
+"Login or Create Account" = "Login or Create Account";
+"Home" = "Home";
+"Quotations" = "Quotations";
+"Menu" = "Menu";
+
+//
+"Logout?" = "Logout?";
+"Do you want to Logout?" = "Do you want to Logout?";
+"Something went wrong" = "Something went wrong";
+"View Policy File" = "View Policy File";
+"Buy Now" = "Buy Now";
+"Basic Price" = "Basic Price";
+"Payment Date :" = "Payment Date :";
+"Basic Price :" = "Basic Price :";
+"Accepted Quotation Detail" = "Accepted Quotation Detail";
+"Quotation Detail" = "Quotation Detail";
+"Write message..." = "Write message...";
+"Send" = "Send"; = "Send" = "Send";;
+//
+"days ago" = "days ago";
+"hours ago" = "hours ago";
+"minutes ago" = "minutes ago";
+"second ago" = "second ago";
+"just now" = "just now";
+"seconds ago" = "seconds ago";
+"ago" = "ago";
+"minute" = "minute";
+"minutes" = "minutes";
+"hour" = "hour";
+"hours" = "hours";
+"day" = "day";
+"days" = "days";
+"month" = "month";
+"months" = "months";
+"year" = "year";
+"years" = "years";
+"Place Order" = "Place Order";
+"Ok" = "Ok";
+"Please Write something" = "Please Write something";
+"Follow Us" = "Follow Us";

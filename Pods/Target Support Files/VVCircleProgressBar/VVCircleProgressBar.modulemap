@@ -1,0 +1,6 @@
+framework module VVCircleProgressBar {
+  umbrella header "VVCircleProgressBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

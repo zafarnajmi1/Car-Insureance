@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="JosefinSans-Light_1.ttf">
+            <string>JosefinSans-Light</string>
+        </array>
+        <array key="JosefinSans-Regular_0.ttf">
+            <string>JosefinSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DriverDateSectionCell" rowHeight="68" id="KGk-i7-Jjw" customClass="DriverDateSectionCell" customModule="CarInsurance" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="397" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="397" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date asdf asdf asdf asdfadsfadsf asdf asdf asdf adsf" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BnQ-hW-4sM">
+                        <rect key="frame" x="20" y="10" width="357" height="36"/>
+                        <fontDescription key="fontDescription" name="JosefinSans-Regular" family="Josefin Sans" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L1U-ak-csO">
+                        <rect key="frame" x="20" y="54" width="357" height="45"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="00/00/00" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SeN-CK-EtT">
+                                <rect key="frame" x="43" y="0.0" width="294" height="45"/>
+                                <color key="textColor" red="0.35294117650000001" green="0.35686274509999999" blue="0.36470588240000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="JosefinSans-Light" family="Josefin Sans" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P9d-LA-rQq">
+                                <rect key="frame" x="15" y="12.5" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="axQ-Y3-tf5"/>
+                                    <constraint firstAttribute="width" constant="20" id="moW-JW-pqw"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Calendar"/>
+                                <connections>
+                                    <action selector="onClick_Calender:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Sbk-04-RfZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="P9d-LA-rQq" firstAttribute="leading" secondItem="L1U-ak-csO" secondAttribute="leading" constant="15" id="HC3-m1-eeF"/>
+                            <constraint firstAttribute="trailing" secondItem="SeN-CK-EtT" secondAttribute="trailing" constant="20" id="OpE-OO-taw"/>
+                            <constraint firstItem="SeN-CK-EtT" firstAttribute="top" secondItem="L1U-ak-csO" secondAttribute="top" id="T2a-rb-lko"/>
+                            <constraint firstItem="SeN-CK-EtT" firstAttribute="leading" secondItem="P9d-LA-rQq" secondAttribute="trailing" constant="8" id="ba5-Cw-icC"/>
+                            <constraint firstItem="P9d-LA-rQq" firstAttribute="centerY" secondItem="SeN-CK-EtT" secondAttribute="centerY" id="hbY-wx-xJe"/>
+                            <constraint firstAttribute="bottom" secondItem="SeN-CK-EtT" secondAttribute="bottom" id="jCM-L8-PaU"/>
+                            <constraint firstAttribute="height" constant="45" id="nfS-du-v7X"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="BnQ-hW-4sM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="76h-aZ-oB9"/>
+                    <constraint firstAttribute="trailing" secondItem="BnQ-hW-4sM" secondAttribute="trailing" constant="20" id="Kgg-Bc-vkV"/>
+                    <constraint firstItem="L1U-ak-csO" firstAttribute="top" secondItem="BnQ-hW-4sM" secondAttribute="bottom" constant="8" id="YBd-WV-e0b"/>
+                    <constraint firstItem="L1U-ak-csO" firstAttribute="leading" secondItem="BnQ-hW-4sM" secondAttribute="leading" id="bE6-J1-nOQ"/>
+                    <constraint firstItem="BnQ-hW-4sM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="gtc-WF-U2c"/>
+                    <constraint firstItem="L1U-ak-csO" firstAttribute="trailing" secondItem="BnQ-hW-4sM" secondAttribute="trailing" id="ur8-gS-Ie2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblheading" destination="BnQ-hW-4sM" id="o3l-Qd-8o1"/>
+                <outlet property="mainDateView" destination="L1U-ak-csO" id="9eI-sA-SXA"/>
+                <outlet property="txtdrivedate" destination="SeN-CK-EtT" id="LqZ-kr-JgA"/>
+            </connections>
+            <point key="canvasLocation" x="90.579710144927546" y="56.25"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Calendar" width="12" height="13"/>
+    </resources>
+</document>

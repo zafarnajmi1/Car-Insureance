@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="JosefinSans-Light_1.ttf">
+            <string>JosefinSans-Light</string>
+        </array>
+        <array key="JosefinSans-SemiBold_1.ttf">
+            <string>JosefinSans-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BasicPriceSendQouteCell" rowHeight="70" id="KGk-i7-Jjw" customClass="BasicPriceSendQouteCell" customModule="CarInsurance" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="381" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="381" height="69.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4KW-is-eBW">
+                        <rect key="frame" x="0.0" y="5" width="381" height="59.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jg8-Sr-R8v">
+                                <rect key="frame" x="242" y="0.0" width="139" height="59.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AED " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Gs-0s-iLW">
+                                        <rect key="frame" x="47.5" y="21" width="44" height="18"/>
+                                        <fontDescription key="fontDescription" name="JosefinSans-SemiBold" family="Josefin Sans" pointSize="18"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.93333333330000001" green="0.73725490199999999" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="139" id="BE6-9E-lZB"/>
+                                    <constraint firstItem="3Gs-0s-iLW" firstAttribute="centerY" secondItem="jg8-Sr-R8v" secondAttribute="centerY" id="Wrm-BU-lpu"/>
+                                    <constraint firstItem="3Gs-0s-iLW" firstAttribute="centerX" secondItem="jg8-Sr-R8v" secondAttribute="centerX" id="ak0-Ie-oUO"/>
+                                </constraints>
+                            </view>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Basic Price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4db-Gc-ge1">
+                                <rect key="frame" x="20" y="9" width="214" height="41.5"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="JosefinSans-Light" family="Josefin Sans" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96056312322616577" green="0.96470874547958374" blue="0.96871882677078247" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="jg8-Sr-R8v" secondAttribute="bottom" id="2gz-Dy-Jc8"/>
+                            <constraint firstAttribute="trailing" secondItem="jg8-Sr-R8v" secondAttribute="trailing" id="Hkj-35-qK8"/>
+                            <constraint firstItem="jg8-Sr-R8v" firstAttribute="leading" secondItem="4db-Gc-ge1" secondAttribute="trailing" constant="8" id="L1Y-hT-Fme"/>
+                            <constraint firstItem="4db-Gc-ge1" firstAttribute="top" secondItem="4KW-is-eBW" secondAttribute="top" constant="9" id="iJc-Lq-HoZ"/>
+                            <constraint firstAttribute="bottom" secondItem="4db-Gc-ge1" secondAttribute="bottom" constant="9" id="iak-DD-YCI"/>
+                            <constraint firstItem="4db-Gc-ge1" firstAttribute="leading" secondItem="4KW-is-eBW" secondAttribute="leading" constant="20" id="j13-h0-Oof"/>
+                            <constraint firstItem="jg8-Sr-R8v" firstAttribute="top" secondItem="4KW-is-eBW" secondAttribute="top" id="k8o-mQ-q4y"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="4KW-is-eBW" secondAttribute="trailing" id="PPV-6V-9Vf"/>
+                    <constraint firstAttribute="bottom" secondItem="4KW-is-eBW" secondAttribute="bottom" constant="5" id="RXf-QT-dh0"/>
+                    <constraint firstItem="4KW-is-eBW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="aAP-5H-Ab4"/>
+                    <constraint firstItem="4KW-is-eBW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="kxk-m8-JbP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="PriceUiview" destination="jg8-Sr-R8v" id="nlP-2G-0yl"/>
+                <outlet property="basicmainView" destination="4KW-is-eBW" id="jYp-yw-lRC"/>
+                <outlet property="lblAED" destination="3Gs-0s-iLW" id="EwN-X3-ODS"/>
+                <outlet property="txtbasicprice" destination="4db-Gc-ge1" id="haC-Gi-Z7h"/>
+            </connections>
+            <point key="canvasLocation" x="171.73913043478262" y="125.22321428571428"/>
+        </tableViewCell>
+    </objects>
+</document>
